@@ -26,11 +26,11 @@ void	usleep_in_milliseconds(int ms) {
 	usleep(100); // this is 0.1 ms
 }
 
-// why do i use that weird loop instead of just writing the following?
-//
+// why use that weird loop instead of just writing the following?
+
 // void	usleep_in_milliseconds(int ms) {
 // usleep(ms * 1000); }
-//
+
 // compare the actual time waited between the two implementations!
 // small differences/inaccuracies accumulate over time
 

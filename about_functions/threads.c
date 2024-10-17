@@ -26,7 +26,7 @@ int main() {
   pthread_create(&tid, NULL, &routine, str);
 
   //try executing the program with either join or detach
-  //then try again with valgrind, then gdb. What is happening?
+  //then try again with valgrind. What is happening?
 
   //pthread_join(tid, NULL);
   //pthread_detach(tid);
@@ -40,3 +40,8 @@ int main() {
 
   return (0);
 }
+
+//gdb is not the most useful tool for this.
+//figure out how to follow threads in gdb and find out why?
+//try creating multiple threads and print something in the routine
+//what happens in gdb when you attach to a thread and run the program?
