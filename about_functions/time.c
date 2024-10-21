@@ -2,6 +2,10 @@
 
 // PART 1/3
 // Time functions: usleep, gettimeofday
+// Learning Objectives:
+//    - How to use gettimeofday to obtain current time in different units
+//    - How to use usleep
+//    - How to write custom usleep wrapper functions for precision/ease of use
 
 // gettimeofday reads number of seconds and microseconds
 // elapsed since Unix Epoch into struct timeval

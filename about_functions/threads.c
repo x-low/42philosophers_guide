@@ -1,6 +1,12 @@
 #include "libraries.h"
 
+// PART 2/3
 // Thread functions: create, join, detach
+// Learning Objectives:
+//    - Understand how threads behave in execution
+//    - When to use Multi-process vs Multi-threaded
+//    - Using thread functions to change thread behaviour
+//    - Debugging/memory management in multi-threaded programs
 
 // join and detach determine how threads terminate.
 
